@@ -18,7 +18,7 @@
     <form>
         <input type="text" id="nome" placeholder="Nome" /><br/>
         
-        <select id="ano-nasc">
+        <select id="ano-nasc"> <!-- Funciona com for.js -->
             <option>Escolha um ano</option>
         </select><br/>
 
@@ -27,6 +27,14 @@
     </form>
     <hr>
 
+    <!-- feito no settime.js -->
+    <b>Contador de tempo</b>
+    <p id="status"></p>
+    <button onclick="settime()">Iniciar Contador 5seg</button>
+    <br/><br/>
+    <hr>
+
     <script src='js/for.js'></script>
+    <script src='js/settime.js'></script>
 </body>
 </html>
